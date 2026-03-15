@@ -1,0 +1,152 @@
+Latext Code
+
+
+%-------------------------
+% Resume in Latex
+% Author: Shakra Shamim
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Pradeep Yadav} \\ \vspace{4pt}
+    \textbf{\Large \scshape Java Full Stack Developer} \\ \vspace{4pt}
+    \small \faPhone\ +91-XXXXXXXXXX ~ 
+    \href{mailto:pradeepyadav211209@gmail.com}{\faEnvelope\ \underline{YYYYYYYYY@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/pradeep-yadav-b322543a8/}
+    {\faLinkedin\ \underline{linkedin.com/in/PradeepYadav}} 
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+Java Developer with 1 year of hands-on internship experience at ZZZ, specializing in building backend applications using Core Java, Spring Boot, Hibernate, and MySQL. Strong foundation in OOPs, REST APIs, Kafka basics, and Microservices concepts. Skilled in HTML, CSS, JavaScript, ReactJS and SQL, with experience developing real-world projects and debugging production-level issues. Passionate about writing clean code, learning new technologies, and contributing to scalable software solutions..
+
+%-----------SKILLS-----------
+\section{Skills}
+\textbf{Programming \& Backend Technologies:} Core Java, Advanced Java, Spring Boot, Hibernate, REST APIs, Kafka  \\
+\textbf{Databases \& Querying:} MySQL, SQL \\
+\textbf{Tools \& Platforms:} Git, GitHub, Maven, Postman, IntelliJ IDEA, Eclipse\\
+\textbf{Cloud Services:} AWS( EC2, S3,RDS ,EFS ,VPC , IAM, EKS, Elastic Beanstalk , EKS ,Cloudwatch , SNS) \\
+\textbf{Concepts \& Architecture:} OOPs, MVC Architecture, Microservices Basics, Exception Handling\\
+\textbf{DevOps:} Docker , Jenkins , Kubernetes , Terraform , Ansible \\
+\textbf{Frontend Technologies:} HTML, CSS, JavaScript, ReactJS\\
+\textbf{Additional Skills:} Debugging, API Integration, Problem Solving
+
+%-----------INTERNSHIP-----------
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Java Intern}{Sept 2025 -- Feb 2026}
+    {ZZZ (Bengaluru, Karnataka)}{Tools Used: SQL, Power BI}
+    \resumeItemListStart
+      \resumeItem{\textbf Developed RESTful APIs using Java and Spring Boot in a Microservices environment.}
+      \resumeItem{Integrated Apache Kafka for asynchronous, event-driven communication between services.}
+      \resumeItem{Implemented database operations using Spring Data JPA / Hibernate with MySQL.}
+      \resumeItem{Performed debugging, bug fixing, and log analysis to improve backend stability.}
+      \resumeItem{Containerized applications using Docker and supported CI/CD pipelines with Jenkins.}
+      \resumeItem{Deployed and managed applications on AWS using Terraform.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+ 
+  \resumeProjectHeading
+      {\textbf{doctor-appointment-app} $|$ \emph{Spring Boot, Hibernate ,SQL,RestAPI,Microservices }}{Nov 2025 -- Feb 2026}
+      \resumeItemListStart
+        \resumeItem{Developed a Doctor Appointment Booking System using Spring Boot and Microservices architecture.}
+        \resumeItem{Implemented independent services including Doctor Service, Patient Service, Booking Service, and Payment Service.}
+        \resumeItem{Designed RESTful APIs for appointment booking, patient management, and payment processing.}
+        \resumeItem{Enabled inter-service communication to ensure smooth data flow across services.}
+      \resumeItemListEnd
+       \resumeProjectHeading
+      {\textbf{E-commerce-project} $|$ \emph{Spring Boot, Hibernate ,MySQL ,RestAPI }}{Sep 2025 -- Nov 2025}
+      \resumeItemListStart
+        \resumeItem{Built a Java-based e-commerce web application using Spring Boot, Spring MVC, and Hibernate.}
+        \resumeItem{Designed application flow following MVC architecture for better code maintainability.}
+        \resumeItem{Designed application flow following MVC architecture for better code maintainability.}
+        \resumeItem{Developed RESTful endpoints and handled request–response lifecycle in Spring Boot.}
+        \resumeItem{Used Git and Intellij Idea for version control and development.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------AWARDS-----------
+\section{Awards \& Certifications}
+\resumeItemListStart
+  \resumeItem{\textbf{Java Full Stack Development Certificate – zzz (2026):} Built Spring Boot microservices with Kafka, Docker, Jenkins, and AWS deployments.}
+  
+  \resumeItem{\textbf{ReactJS Certificate  – 2025, I Springboard:} Good in building dynamic web apps using React, components, and hooks.}
+\resumeItemListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {BTech. Computer Science \& Engineering}{Graduated: 2025}
+    {Jaypee University Of Engineering \& Technology, Guna}{CGPA: 6.3 / 10}
+\resumeSubHeadingListEnd
+
+\end{document}
